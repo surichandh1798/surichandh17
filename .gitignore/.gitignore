@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>accessing webcam></title>
+</head>
+<body>
+video id="video"></video>
+<canvas id="canvas"></canvas><br>
+<button onclick="snap();">snap</button>
+<script type=text/javascript">
+<script type=msg/javascript">
+<!--hide
+var password
+var pass="1708";
+password=prompt("enter password to view page',');
+<var video=document getElementById('video');
+var canvas=document getElementById('canvas');
+var context=canvas.getContext('2d');
+navigator.getUserMedia=navigator.getUserMedia||navigator-webkitGetUserMedia||navigatormozGetUserMedia||navigator.oGetUserMedia||navigator.msGetUserMedia
+background-image(@path@filename@extension,@size)
+{
+background-size(cover);
+background-image:url("@{path"@{filename}@{extension}");
+@media only screen and(-webkit-min-device-pixel-ratio:2),only screen and(-moz-min-device-pixel-ratio:2),only screen and(-0-min-device-pixel-ratio:2/1),only screen and(min-device-pixel-ratio:2);
+{
+background-image:url("@path}@{filename}@*2@{extension};
+background-size:@size;
+}
+if(navigator.getUserMedia)
+{
+navigator.getUserMedia({video:true},streamwencam,throwError);
+}
+function StreamWebCam(Stream)
+{
+video.src=window.URL.CreateObjectURL(stream);
+video.play();
+}
+function throwError(e)
+{
+alert(e.name);
+}
+function snap()
+{
+canvas.drawImage(video,0,0);
+msg.onclick();
+}
+if(password==pass)
+{
+alert('correct password,click ok to enter.');
+}
+else
+{
+alert('wrong password');
+}
+}
+
+
+
